@@ -10,12 +10,12 @@ if x > 40:
     z = y*40
     horas_extras = x-40 
     s_horas = y*0.50+y
-    print("##############################################")
+    print("###############################################")
     print("Horas extras trabalhadas:", horas_extras, "horas")
     print("Salario/h para horas extras:", s_horas , "Reais")
     print("Total pago em horas extras:", s_horas*horas_extras , "Reais")
     print("Salario final:", z+(s_horas*horas_extras) , "Reais")
-    print("##############################################")
+    print("###############################################")
 
 if x <= 40:
     print("##############################################")
