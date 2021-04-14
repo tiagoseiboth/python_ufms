@@ -17,7 +17,7 @@ if x > 40.00:
     print("Salario final:", z+(s_horas*horas_extras) , "Reais")
     print("###############################################")
 
-if x <= 40:
+else:
     print("##############################################")
     print("Salario total por horas trabalhas:", x*y , "Reais")
     print("##############################################")
