@@ -1,12 +1,12 @@
 import os
 
 print("Quantas horas foram trabalhadas?")
-x = int(input())
+x = float(input())
 print("Qual o salario/h do funcionario em reais?")
 y = float(input())
 os.system('cls' if os.name == 'nt' else 'clear')
 
-if x > 40:
+if x > 40.00:
     z = y*40
     horas_extras = x-40 
     s_horas = y*0.50+y
